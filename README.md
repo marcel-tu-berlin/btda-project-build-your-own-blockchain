@@ -4,4 +4,9 @@ This project aims to build a simple blockchain using [Substrate](https://substra
 
 ## Project Structure
 
+## Substrate Node Compilation
 
+Some known issues with the compilation of the Substrate node are:
+
+- missing protocol buffers compiler: `sudo apt install  protobuf-compiler`
+- missing clang: `sudo apt install clang`
