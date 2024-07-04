@@ -16,4 +16,9 @@ This project aims to build a simple blockchain using [Substrate](https://substra
 - The security property of blockchains will ensure that no hacking attacks endanger the sensible and valuable data for the individuals.
 - Availability will also be increased and not restricted by e.g. maintaining activities (e.g. Qispos down 22-06)
 
+## Substrate Node Compilation
 
+Some known issues with the compilation of the Substrate node are:
+
+- missing protocol buffers compiler: `sudo apt install  protobuf-compiler`
+- missing clang: `sudo apt install clang`
